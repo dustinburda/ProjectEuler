@@ -30,7 +30,6 @@ int* seive(int n){
             seive_array[i*j] = 0; 
         }
     }
-
     return seive_array; 
 }
 
